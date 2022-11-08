@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: white;
+  width: 100%;
+  margin: 20px auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(57, 150, 243);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin: 0;
+  
+}
+
+.para, .create{
+  display: none;
+}
+
+.forms {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  border: 0;
+  background-color: #f5f6f7;
+  box-shadow: 0px 1px gainsboro;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.log {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+}
+
+.forms a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-size: 15px;
+}
+
+.hr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 15px;
+  text-transform: lowercase;
+  font-weight: 600;
+  margin-bottom: 10px; 
+  color: grey;
+}
+.or, .hide-hr{
+  display: inline-block;
+}
+
+hr {
+  width: 38%;
+  height: 0px;
+  margin-top: 10px;
+}
+
+.new {
+  background-color: rgb(8, 168, 8);
+  color: white;
+  text-shadow: 0px 1px gray;
+  padding: 11px;
+  width: 45%;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer {
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    color: grey;
+    font-size: 15px;
+}
+.dr a{
+  color: grey;
+  text-decoration: none;
+}
+
+.attribute p {
+  display: flex;
+  justify-content: center;
+}
+.attribute a{
+  text-decoration: none;
+    color: cadetblue;
+    position: relative;
+    bottom: 100px;
+  
+}
+
+
+
+
+/* for large screens */
+@media only screen and(min-width: 725px),(orientation: landscape) {
+
+  body {
+    background-color: lavender;
+    width: 80%;
+    height: 100vh;
+    margin: 10% auto;
+    align-items: center;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 67px;
+    margin-top: 5px;
+}
+
+.left-section {
+  padding-top: 80px;
+}
+
+h1 {
+  color: blue;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+.para {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  width: 500px;
+}
+
+.forms {
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 7px;
+    padding: 20px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+
+input {
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+
+.log {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.forms a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.new {
+    background-color: limegreen;
+    color: white;
+    padding: 13px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.create {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.create a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  visibility: hidden;
+}
+
+.attribute p {
+  display: flex;
+  justify-content: center;
+}
+.attribute a{
+  text-decoration: none;
+    color: cadetblue;
+    position: relative;
+    bottom: 199px;
+  
+}
+
+
+}
